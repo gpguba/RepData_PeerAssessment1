@@ -91,7 +91,7 @@ sum(is.na(activity2))
 
 ```r
 stepsPerDay2 <- tapply(activity2$steps, activity2$date, sum)
-hist(stepsPerDay2, breaks = 25)
+hist(stepsPerDay2, breaks = 25,main="Historgram of Steps Taken per Day", xlab="Steps per Day")
 ```
 
 ![](PA1_template_files/figure-html/meanstepsperday2-1.png) 
